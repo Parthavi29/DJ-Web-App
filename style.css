@@ -1,0 +1,65 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background: url("https://thumbs.gfycat.com/HomelyBewitchedItaliangreyhound-size_restricted.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    width: 80%;
+    background: rgb(0,255,192);
+    background: linear-gradient(90deg, rgba(0,255,192,1) 0%, rgba(59,57,255,1) 50%, rgba(230,0,255,1) 100%);
+    font-size: 30px;
+    color: white;
+    box-shadow: 10px 10px 10px #00ffc0;
+}
+
+.note{
+    white-space: pre-line;
+    font-size: 25px;
+}
+
+.speeddiv{
+    float: left;
+}
+
+.volumediv{
+    float: right;
+}
+
+.button{
+    background-color: #00ffc0;
+    margin: 15px;
+    font-size: 22px;
+}
+
+.disk1, .disk2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#playb{
+    border: 2px ridge #fffffe;
+    background-image: linear-gradient(to right top, #00ffaf, #00ebfe, #00cbff, #0096ff, #e012eb);
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: #fffffe;
+    margin: 10px;
+}
+
+#stopb{
+    background-image: linear-gradient(to right top, #e012eb, #0096ff, #00cbff, #00ebfe, #00ffaf);
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: #fffffe;
+    border: 2px ridge #fffffe;
+    margin: 10px;
+}
+
+canvas{
+    border: 5px solid #00ffc0;
+    margin-top: 100px;
+}
